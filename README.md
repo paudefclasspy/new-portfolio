@@ -31,12 +31,12 @@ git clone https://github.com/tu-usuario/portfolio.git
 cd portfolio
 ```
 3. **Instala las dependencias**:
- ```
+```
 npm install
 ```
 4. **Inicia el servidor de desarrollo**:
-   ```
-   npm run dev
-   ```
+```
+npm run dev
+```
    
 
