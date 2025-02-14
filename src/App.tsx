@@ -25,7 +25,7 @@ function App() {
       tech: ["Python"]
     },
     {
-      title: "A* algorithm path-finder",
+      title: "A* Algorithm Path-Finder",
       description: "Pathfinding created with the A* algorithm You can place obstacles, the algorithm will sweep the entire map and find the best path to the specified destination.",
       github: "https://github.com/paudefclasspy/A-Star-Path-Finding",
       tech: ["Python"]
