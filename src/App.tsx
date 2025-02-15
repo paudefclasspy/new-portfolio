@@ -172,7 +172,7 @@ function App() {
             </div>
             <div className="border-l-2 border-gray-300 pl-4">
               <h3 className="text-xl font-semibold text-gray-800">Software Engineer</h3>
-              <p className="text-gray-700">Télefonica · Full-time</p>
+              <p className="text-gray-700">Telefónica · Full-time</p>
               <p className="text-gray-600">Jan 2023 - Sep 2023</p>
               <p className="text-gray-600 mt-2">Developed and maintained telecommunications software solutions, working on network optimization and customer-facing applications.</p>
             </div>
