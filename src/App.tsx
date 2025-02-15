@@ -194,8 +194,9 @@ function App() {
           </div>
           
           <div className="border-l-2 border-gray-300 pl-4">
-            <h3 className="text-xl font-semibold text-gray-800">Saint Louis Univeristy - Madrid</h3>
+            <h3 className="text-xl font-semibold text-gray-800">Saint Louis Univeristy - Madrid)</h3>
             <p className="text-gray-700">Bachelor's degree, Computer Science</p>
+            <p className="text-gray-700">Cum Laude</p>
           </div>
         </div>
 
