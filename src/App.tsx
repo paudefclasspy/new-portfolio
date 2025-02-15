@@ -208,7 +208,7 @@ function App() {
           </div>
           
           <div className="flex flex-wrap gap-3">
-            {['React','Python','C++', 'TypeScript', 'JavaScript', 'Node.js', 'HTML', 'CSS', 'Git', 'REST APIs', 'Agile Methodologies'].map((skill) => (
+            {['React','Machine Learning','Data Analysis','Python','C++', 'TypeScript', 'JavaScript', 'Node.js', 'HTML', 'CSS', 'Git', 'REST APIs', 'Agile Methodologies'].map((skill) => (
               <span key={skill} className="px-4 py-2 rounded-full backdrop-blur-sm bg-white/40 text-gray-700 border border-white/40 hover:bg-white/60 transition-colors">
                 {skill}
               </span>
