@@ -190,7 +190,7 @@ function App() {
           <div className="border-l-2 border-gray-300 pl-4">
             <h3 className="text-xl font-semibold text-gray-800">Educational Bootcamp Teacher</h3>
             <p className="text-gray-700">Saint Louis University - Madrid</p>
-            <p className="text-gray-600">Feb 2023 - Dec 2023</p>
+            <p className="text-gray-600">Jul 2023 - Aug 2023</p>
             <p className="text-gray-600 mt-2">Taught programming and computer science fundamentals to underprivileged students, helping them develop essential skills for future careers in technology.</p>
           </div>
         </div>
