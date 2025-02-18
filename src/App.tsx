@@ -166,23 +166,32 @@ function App() {
           <div className="space-y-6">
             <div className="border-l-2 border-gray-300 pl-4">
               <h3 className="text-xl font-semibold text-gray-800">Software Engineer</h3>
-              <p className="text-gray-700">Banco Santander · Full-time</p>
-              <p className="text-gray-600">Jan 2024 - Apr 2024</p>
-              <p className="text-gray-600 mt-2">Development of critical banking applications, focusing on secure transaction processing and real-time financial data analysis.</p>
-            </div>
-            <div className="border-l-2 border-gray-300 pl-4">
-              <h3 className="text-xl font-semibold text-gray-800">Software Engineer</h3>
               <p className="text-gray-700">Telefónica · Full-time</p>
-              <p className="text-gray-600">Jan 2023 - Sep 2023</p>
+              <p className="text-gray-600">Jan 2024 - Jan 2025</p>
               <p className="text-gray-600 mt-2">Developed and maintained telecommunications software solutions, working on network optimization and customer-facing applications.</p>
             </div>
             
             <div className="border-l-2 border-gray-300 pl-4">
               <h3 className="text-xl font-semibold text-gray-800">Software Engineer, Intern</h3>
               <p className="text-gray-700">Moodle · Part-time</p>
-              <p className="text-gray-600">Jul 2022 - Sep 2022</p>
+              <p className="text-gray-600">Jul 2023 - Sep 2023</p>
               <p className="text-gray-600 mt-2">Contributed to the development of Moodle's learning management system, implementing new features and fixing bugs.</p>
             </div>
+          </div>
+        </div>
+
+        {/* Volunteering Section */}
+        <div className="backdrop-blur-xl bg-white/60 rounded-2xl p-8 mb-8 shadow-xl border border-white/40">
+          <div className="flex items-center gap-2 mb-6">
+            <Briefcase className="w-6 h-6 text-gray-700" />
+            <h2 className="text-2xl font-bold text-gray-800">Volunteering</h2>
+          </div>
+          
+          <div className="border-l-2 border-gray-300 pl-4">
+            <h3 className="text-xl font-semibold text-gray-800">Educational Bootcamp Teacher</h3>
+            <p className="text-gray-700">Saint Louis University - Madrid</p>
+            <p className="text-gray-600">Feb 2023 - Dec 2023</p>
+            <p className="text-gray-600 mt-2">Taught programming and computer science fundamentals to underprivileged students, helping them develop essential skills for future careers in technology.</p>
           </div>
         </div>
 
@@ -208,7 +217,12 @@ function App() {
           </div>
           
           <div className="flex flex-wrap gap-3">
-            {['React','Machine Learning','Data Analysis','Python','C++', 'TypeScript', 'JavaScript', 'Node.js', 'HTML', 'CSS', 'Git', 'REST APIs', 'Agile Methodologies'].map((skill) => (
+            {[
+              'React', 'Machine Learning', 'Data Analysis', 'Python', 'C++', 'TypeScript', 'JavaScript', 
+              'Node.js', 'HTML', 'CSS', 'Git', 'REST APIs', 'Agile Methodologies', 'Java', 'Flask', 
+              'Django', 'JUnit', 'WordPress', 'Material-UI', 'FastAPI', 'Docker', 'TravisCI', 
+              'Google Cloud Platform', 'pandas', 'NumPy', 'Matplotlib', 'SQL'
+            ].map((skill) => (
               <span key={skill} className="px-4 py-2 rounded-full backdrop-blur-sm bg-white/40 text-gray-700 border border-white/40 hover:bg-white/60 transition-colors">
                 {skill}
               </span>
