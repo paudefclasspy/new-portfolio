@@ -9,6 +9,7 @@ function App() {
       title: "Data Structures Visualization Tool",
       description: "An interactive web app that visualizes data structures and their operations with real-time animations, helping users understand concepts, time complexities, and real-world applications in a fun and engaging way.",
       github: "https://github.com/paudefclasspy/data-structures",
+      website: "https://datastructuresvisualization.netlify.app/",
       tech: ["Typescript", "React", "JavaScript"]
     },
     {
