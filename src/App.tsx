@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Briefcase, GraduationCap, Code, FolderGit2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState } from 'react';
+import { Github, Linkedin, Mail, Briefcase, GraduationCap, Code, FolderGit2, ChevronLeft, ChevronRight, Globe } from 'lucide-react';
 
 function App() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -9,7 +9,7 @@ function App() {
       title: "Data Structures Visualization Tool",
       description: "An interactive web app that visualizes data structures and their operations with real-time animations, helping users understand concepts, time complexities, and real-world applications in a fun and engaging way.",
       github: "https://github.com/paudefclasspy/data-structures",
-      website: "https://datastructuresvisualization.netlify.app/",
+      demo: "https://datastructuresvisualization.netlify.app/",
       tech: ["Typescript", "React", "JavaScript"]
     },
     {
@@ -119,6 +119,16 @@ function App() {
                         >
                           <Github className="w-4 h-4" /> View Code
                         </a>
+                        {project.demo && (
+                          <a 
+                            href={project.demo} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/50 text-gray-700 hover:bg-white/70 transition-all duration-300 shadow-sm hover:shadow-md"
+                          >
+                            <Globe className="w-4 h-4" /> View Demo
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
