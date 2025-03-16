@@ -204,11 +204,18 @@ function App() {
             <h2 className="text-2xl font-bold text-gray-800">Volunteering</h2>
           </div>
           
-          <div className="border-l-2 border-gray-300 pl-4">
-            <h3 className="text-xl font-semibold text-gray-800">Educational Bootcamp Teacher</h3>
-            <p className="text-gray-700">Saint Louis University - Madrid</p>
-            <p className="text-gray-600">Jul 2023 - Aug 2023</p>
-            <p className="text-gray-600 mt-2">Taught programming and computer science fundamentals to underprivileged students, helping them develop essential skills for future careers in technology.</p>
+          <div className="space-y-6">
+            <div className="border-l-2 border-gray-300 pl-4">
+              <h3 className="text-xl font-semibold text-gray-800">Educational Bootcamp Teacher</h3>
+              <p className="text-gray-700">Saint Louis University Madrid</p>
+              <p className="text-gray-600 mt-2">Led intensive, non-profit coding bootcamps for children and individuals with or without prior experience, teachingprogramming fundamentals, problem-solving, and real-world software development practices </p>
+            </div>
+            
+            <div className="border-l-2 border-gray-300 pl-4">
+              <h3 className="text-xl font-semibold text-gray-800">Volunteer</h3>
+              <p className="text-gray-700">Hackathon for Good 2024</p>
+              <p className="text-gray-600 mt-2">Volunteered in the 36-hour ”TechForGood Hackathon” focused on creating tech solutions to environmentalchallenges, where our team developed an web app to track personal carbon footprints and suggest eco-friendly alternatives</p>
+            </div>
           </div>
         </div>
 
