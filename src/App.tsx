@@ -22,7 +22,7 @@ function App() {
       title: "ToDo App",
       description: "A simple and efficient task management application designed to help users organize and manage their daily tasks.",
       github: "https://github.com/paudefclasspy/Quehaceres-app",
-      demo: "#",
+      demo: "https://quehaceresapp.netlify.app/",
       tech: ["React", "Node.js", "Typescript"]
     },
     {
