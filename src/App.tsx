@@ -57,8 +57,8 @@ function App() {
         <div className="backdrop-blur-xl bg-white/60 rounded-2xl p-8 mb-8 shadow-xl border border-white/40">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img 
-              src="https://media.licdn.com/dms/image/v2/D4E03AQEdf4ScpsRJUQ/profile-displayphoto-shrink_400_400/B4EZUBQ9qxHcAg-/0/1739482979528?e=1744848000&v=beta&t=dNGDAFw6onLz7DqOQEzwYl2SU-srLIeBmmqNKVW4yYY" 
-              alt="Pau Arane Gabellido" 
+              src="src/headerimage.png" 
+              alt="Pau Aranega Bellido" 
               className="w-48 h-48 rounded-full object-cover border-4 border-white/80 shadow-lg"
             />
             <div className="text-center md:text-left">
