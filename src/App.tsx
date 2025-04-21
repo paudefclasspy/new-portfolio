@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Github, Linkedin, Mail, Briefcase, GraduationCap, Code, FolderGit2, ChevronLeft, ChevronRight, Globe } from 'lucide-react';
+import headerImage from './assets/headerimage.png'
 
 function App() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -57,7 +58,7 @@ function App() {
         <div className="backdrop-blur-xl bg-white/60 rounded-2xl p-8 mb-8 shadow-xl border border-white/40">
             <div className="flex flex-col md:flex-row items-center gap-8">
             <img 
-              src="headerimage.png" 
+              src={headerImage} 
               alt="Pau Aranega Bellido" 
               className="w-48 h-48 rounded-full object-cover border-4 border-white/80 shadow-lg"
             />
@@ -259,3 +260,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
