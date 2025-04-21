@@ -55,9 +55,9 @@ function App() {
       <div className="max-w-5xl mx-auto relative">
         {/* Header Section */}
         <div className="backdrop-blur-xl bg-white/60 rounded-2xl p-8 mb-8 shadow-xl border border-white/40">
-          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
             <img 
-              src="src/headerimage.png" 
+              src="headerimage.png" 
               alt="Pau Aranega Bellido" 
               className="w-48 h-48 rounded-full object-cover border-4 border-white/80 shadow-lg"
             />
@@ -65,18 +65,18 @@ function App() {
               <h1 className="text-4xl font-bold text-gray-800 mb-2">Pau Aranega Bellido</h1>
               <p className="text-xl text-gray-600 mb-4">Software Engineer</p>
               <div className="flex gap-4 justify-center md:justify-start">
-                <a href="https://github.com/paudefclasspy" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">
-                  <Github className="w-6 h-6" />
-                </a>
-                <a href="https://www.linkedin.com/in/pauaranegabellido/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">
-                  <Linkedin className="w-6 h-6" />
-                </a>
-                <a href="mailto:pauaranega20@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">
-                  <Mail className="w-6 h-6" />
-                </a>
+              <a href="https://github.com/paudefclasspy" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/pauaranegabellido/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="mailto:pauaranega20@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Mail className="w-6 h-6" />
+              </a>
               </div>
             </div>
-          </div>
+            </div>
         </div>
 
         {/* Projects Section */}
